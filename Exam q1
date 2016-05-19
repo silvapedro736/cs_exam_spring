@@ -43,4 +43,4 @@ public void speak(){
 }
 
 d)  What is this called when we write a subclass method which overrides a super class method?
-Overriding
+Polymorphism
