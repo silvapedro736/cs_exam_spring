@@ -48,6 +48,17 @@ public class Queue{
 --------------------------------------------------------------
 
 a)  Explain what a Stack is.  Specify if it is LIFO or FIFO.
+
+A Stack is like a pile of books, when you pilled a bunch of them you can only take out the one on top, hence the last one you put in.
+Stacks are LIFO(Last In First Out)
+
 b)  Complete the Stack class by writing the "pop" method.
+
+
+
 c)  Explain what a Queue is.  Specify if it is LIFO or FIFO.
+
+A queue is like the everyday queue we all go through. Imagine we want to get in a store, but there is a line. The first person that got in the line will be the first person to go in to the store.
+Queues are FIFO(First In First Out)
+
 d)  Complete the Queue class by writing the "peek" and "remove" methods.
