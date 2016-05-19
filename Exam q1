@@ -32,7 +32,7 @@ a)  Write a subclass to Technology with a class called Smartphone.
     
 b)  Explain what INHERITANCE is.
 
-Inheritance is the abillity to create a class that is capable of using variables and methods from a supperior class(parent class).
+Inheritance is the abillity to create a class that is capable of using variables and methods from a superior class(parent class).
 
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
 
