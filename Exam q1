@@ -16,6 +16,31 @@ public class Technology{
 a)  Write a subclass to Technology with a class called Smartphone.
     Add an additional integer field called number.
     Include a constructor for Smartphone that takes the "name" and "number" as parameters.
+    
+    public class Smartphone extends Technology{
+    
+      int number;
+      
+      public Smartphone(int number, String name){
+      
+         this.number = number;
+         super(name);
+      
+      }
+    
+    }
+    
 b)  Explain what INHERITANCE is.
+
+Inheritance is the abillity to create a class that is capable of using variables and methods from a supperior class(parent class).
+
 c)  Write a "speak" method for Smartphone that states the "name" and "number".  
+
+public void speak(){
+
+   System.out.println("My name is " + super(name) + ", and my number is " + this.number);
+
+}
+
 d)  What is this called when we write a subclass method which overrides a super class method?
+Overriding
