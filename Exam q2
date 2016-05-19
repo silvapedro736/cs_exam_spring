@@ -11,4 +11,15 @@ public interface Greetings{
 -----------------------------------------------------
 
 a)  Explain what an interface is.
+
+Interface is a reference type, similar to a class, that can contain only constants.
+
 b)  Write a complete class for a language speaker of your choice, like ItalianSpeaker, which fully implements the interface.
+
+public class EnglishSpeaker implements Greetings{
+
+  public String FormalHello = Hello;
+  
+  public String CasualHello = Hi;
+
+}
