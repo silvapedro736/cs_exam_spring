@@ -18,8 +18,16 @@ b)  Write a complete class for a language speaker of your choice, like ItalianSp
 
 public class EnglishSpeaker implements Greetings{
 
-  public String FormalHello = Hello;
+  public String FormalHello(){
   
-  public String CasualHello = Hi;
+  return "Hello";
+  
+  }
+  
+  public String CasualHello(){
+  
+  return "Hi";
+  
+  }
 
 }
